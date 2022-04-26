@@ -29,7 +29,6 @@ void main()
 	       case 2 : p=pop();
 			if(p!=0)
 			printf("\n\t\t%d is deleted from the Stack",p);
-			else{}
 			break;
 	       case 3 : peek();
 			break;
@@ -50,8 +49,7 @@ void push(int el)
      else
      {    printf("\n\t\tEnter the number to be added  in the Stack : ");
 	  scanf("%d",&el);
-	  Top++;
-	  Stack[Top]=el;
+	  Stack[++Top]=el;
 	  printf("\n\t\t\t\t%d inserted",el);
      }
 }
