@@ -12,7 +12,7 @@ int isFull();
 int isEmpty();
 
 void main()
-{    int x,e,p;
+{    int ch,e,p;
      clrscr();
      while(1)
      {    printf("\n\n\t\t  Which of the following do you want to be performed?");
@@ -22,8 +22,8 @@ void main()
 	  printf("\n\t\t  4. Traverse");
 	  printf("\n\t\t  5. Exit");
 	  printf("\n\t\t  Enter your choice : ");
-	  scanf("%d",&x);
-	  switch(x)
+	  scanf("%d",&ch);
+	  switch(ch)
 	  {    case 1 : push(e);
 			break;
 	       case 2 : p=pop();
@@ -37,7 +37,6 @@ void main()
 	       case 5 : exit(0);    //exit is a predefined function which takes any one integer in the parenthesis
 			break;
 	       default : printf("\n\t\t\t\t  Wrong Choice!!");
-			 break;
 	  }
      getch();
      }
