@@ -48,7 +48,7 @@ void main()
 {   clrscr();
     int ch,i;
     while(1)
-    {   cout<<"\nQueue operations\n1. Insert\n2. Delete\n3. Traverse\n4. Exit\nEnter your choice : ";
+    {   cout<<"\nQueue operations (using Array)\n1. Insert\n2. Delete\n3. Traverse\n4. Exit\nEnter your choice : ";
 	cin>>ch;
 	cout<<"\n";
 	switch(ch)
